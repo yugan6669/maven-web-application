@@ -12,7 +12,7 @@ sh "${mvnHOME}/bin/mvn package"
 }
   stage('Deploy-Tomcat'){
        sshagent(['tomcat-pl']) {
-       sh 'scp -ro StrictHostKeyChecking=no  target/*.war ec2-user@172.31.17.187:/opt/apache-tomcat-9.0.13/webapps/'
+       sh 'sudo cp -ro StrictHostKeyChecking=no  target/*.war ec2-user@172.31.17.187:/opt/apache-tomcat-9.0.13/webapps/'
 }
         }
         }
