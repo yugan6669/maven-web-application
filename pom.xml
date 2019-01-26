@@ -88,12 +88,12 @@
 	<distributionManagement>
 	    <repository>
 	      <id>nexus</id>
-	      <name>Mithun Technologies Releases Nexus Repository</name>
-	      <url>http://ec2-13-233-148-119.ap-south-1.compute.amazonaws.com:8082/repository/maven-releases/</url>
+	      <name>admin</name>
+	      <url>http://ec2-13-232-157-161.ap-south-1.compute.amazonaws.com:8081/repository/maven-snapshots/</url>
 	    </repository>
 	    <snapshotRepository>
 	      <id>nexus</id>
-	      <name>Mithun Technologies Snapshot Nexus Repository </name>
+	      <name>admin</name>
 	      <url>http://ec2-13-233-148-119.ap-south-1.compute.amazonaws.com:8082/repository/flipkart-snapshot/</url>
 	    </snapshotRepository>
 	</distributionManagement>
