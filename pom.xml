@@ -90,12 +90,12 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>admin</name>
-	      <url>http://54.179.189.220:8081/repository/gsi-release//</url>
+	      <url>http://ec2-54-254-205-101.ap-southeast-1.compute.amazonaws.com:8081/repository/opstree-release/</url>
 	    </repository>
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>admin</name>
-	      <url>http://54.179.189.220:8081/repository/gsi-snapshot/</url>
+	      <url>http://ec2-54-254-205-101.ap-southeast-1.compute.amazonaws.com:8081/repository/opstree-snapshot/</url>
 	    </snapshotRepository>
 	</distributionManagement>
 	
